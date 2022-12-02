@@ -1,0 +1,139 @@
+.footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__tel,
+.footer__mail {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    transition: color var(--anim-fast);
+
+    &:focus,
+    &:hover {
+            color: var(--accent-color);
+        }
+
+
+}
+
+.footer__address {
+    display: block;
+    margin-bottom: 9px;
+}
+
+.footer__container {
+    display: flex;
+    vertical-align: baseline;
+
+}
+
+.address {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer__button {
+    align-items: center;
+    min-width: 200px;
+
+    &:after {
+            content: "";
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+            background-image: url(../images/icon-send.svg);
+            background-size: contain;
+            align-items: center;
+    
+        }
+
+}
+
+.footer__socials {
+    margin-left: 70px;
+}
+
+.footer__socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
+    fill: #ffffff;
+
+    transition: fill var(--anim-fast), background-color var(--anim-fast);
+
+   &:hover,
+   &:focus {
+            fill: #ffffff;
+            background-color: #2196f3;
+    
+        }
+
+}
+
+.footer__socials__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.footer__form {
+    display: flex;
+    gap: 12px;
+}
+
+.footer__form__box {
+    margin-left: 93px;
+}
+
+.footer__form__field {
+    width: 358px;
+    height: 50px;
+    padding: 10px;
+    color: #ffffff;
+    outline: unset;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    &::placeholder {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+    
+        }
+}
+
+
+.foooter__form__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+
+}

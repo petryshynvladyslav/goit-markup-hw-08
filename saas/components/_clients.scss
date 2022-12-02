@@ -1,0 +1,39 @@
+.client {
+    @extend %section;
+}
+
+.client__wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.client__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: #ffffff;
+    fill: #AFB1B8;
+    transition: fill var(--anim-fast), border-color var(--anim-fast);
+
+    &:hover,
+    &:focus {
+      fill: #2196f3;
+      border-color: #2196f3;
+     }
+}
+
+.client__header {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
